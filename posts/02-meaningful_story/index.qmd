@@ -1,0 +1,21 @@
+---
+title: "Mini Project 2"
+author: "Abby Sikora"
+date: "2025-04-28"
+---
+
+A day in the life of townhouse 204
+	
+Townhouse 204 is a wonderful inviting home on the outskirts of campus, kitty-cornered with B-lot and the golf course. I live in this house with 5 of my bestest friends from freshman year, Cara, Nina, Lyv, Darcie and Mo. We have a very creative and different major oriented household, with all of us studying in a different field that leads us to come up with quirky things and activities to do all the time. For example we just built an igloo around our back porch to enjoy these recently sunny rays without having to get blown over by the wind. 
+
+Since the beginning of the semester, we have started collecting can tabs (from our sparkling waters of course) and putting them all on a string that hangs on our wall to see how many we reach by the end of the semester. At about halfway down the string, we counted the can tabs, but now there are way too many tabs collected to sit and count manually. With less than 100 days left of our St. Lawrence career we are all left asking, how many tabs will we have by the end of the semester? Of course, me being a stats major I realized we can use an estimator to calculate an estimate of the final number of tabs we will have! 
+
+The total number of can tabs we have at the end of the semester is currently a mystery, or an unknown parameter. Since we know we do not want to count them all by hand (which we eventually will to get an exact number), I offered using some of my stat 326 skills to come up with the best estimate for this. At the beginning of the semester, we would count the collected can tabs occasionally, from 20 to 50 to sometimes a low number like 10, representing a random variable that changed by week. I offered maybe using a random sample from the few times we counted the can tabs to estimate what our final number would be. Darcie however, piped up and said, “But guys, wait! We could've been extra thirsty and focused on hydrating on some weeks where we counted, or the opposite, studying during finals and had less time to crack open a cold water”. I realized that Darcie was implying that we may have bias in our sample and commended her on thinking about this. It is true, it will be biased by count, but as well if we just simply forget to count what we collected in some weeks. Once I explained bias to them, Lyv pointed out another thing we didn’t keep in mind. Lyv points out that from week to week when we were still able to count the collected tabs, the numbers varied a lot and did not go up at a consistent rate from what we counted the week before. Some weeks our count would be 15 tabs, but other weeks it would be close to 50! This triggered my brain to realize that our estimate is fluctuating because of the variance between weeks of collecting and counting. I offered up another solution to this. If we continue to collect and count our tabs consistently throughout the remainder of the semester, over time our estimate should become more accurate. At this point, Mo had had enough of this statistics gibber gabber, and exclaims, “What’s the likelihood that we reach 1000 can tabs by finals week, I don’t care about all these calculations”! This made me laugh, because without even meaning it she asked a statistical question that could be solved. 
+
+Once I explained to Mo that it is actually faster to use an estimator for this than counting the can tabs, she was on board. Nina and Cara were lost and starting to lose hope, but I finally figured out the best solution for this madness. If we collect tabs over time, our weekly count of the collected can tabs could follow a Poisson distribution. If we estimate the average number of tabs we collect weekly by the end of finals week, we can use this distribution to predict the likelihood that we get to 1000 tabs like Mo said!
+
+The ladies of townhouse 204 have been coming together and counting our collected tabs weekly, in hopes to get an estimate for the likelihood soon. 
+
+
+
+“All work presented is my own, and I have followed all rules for collaboration. I have not used generative AI on this project.”
